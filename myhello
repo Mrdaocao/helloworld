@@ -1,0 +1,14 @@
+import java.io.InputStream;
+
+import org.python.util.PythonInterpreter;
+
+public class Demo {
+
+	public static void main(String[] args) {
+//		PythonInterpreter interpreter = new PythonInterpreter();
+//		InputStream is = Demo.class.getClassLoader().getResourceAsStream("mydemo.py");
+//		System.out.println(is);
+//		interpreter.execfile(is);
+		System.out.println(System.getProperty("user.dir"));
+	}
+}
